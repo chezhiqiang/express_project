@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./public/css/reset.css">
+    <link rel="stylesheet" href="./public/css/login.css">
+    <script>
+        window.onload = function () {
+            var oA = document.getElementById("click");
+            var oImg = document.getElementsByTagName("img")[0];
+            oA.onclick = function () {
+               oImg.src = oImg.src+"?"+Math.random();
+            };
+        }
+    </script>
+</head>
+<body>
+<div class="window">
+    <div class="logo">
+        <p>后台登录系统</p>
+        <form action="./index.php?c=admin&a=admin" method="post">
+            <div class="user">
+                <span></span>
+                <input type="text" name="username" autofocus="autofocus" placeholder="请输入账号">
+            </div>
+            <div class="passw">
+                <span></span>
+                <input type="password" name="password"  placeholder="请输入密码">
+            </div>
+            <div class="code">
+                <b>验证码:</b>
+                <input type="text" name="code">
+            </div>
+            <img src="./config/verf.php" alt="验证码">
+            <a href="#" id="click">看不清？点击切换图片</a>
+            <button type="submit">登 录</button>
+        </form>
+
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+form{width:30%;margin: 20px auto;}
+.form-control{height:28px;border:1px solid #67aba2;}
+.btn{margin:0 7px;}
+.but{margin-left:40px;}
+.cancel{background:#586b69;color:#fff;}
+.cancel:hover{color:#fff;}
+.btn-primary{background:#4048b5;}
+.btn-success{background:#1fa101;}
+.wen{background:#67aba2;}

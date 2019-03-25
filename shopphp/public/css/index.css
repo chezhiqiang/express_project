@@ -1,0 +1,41 @@
+.warp{background:#d2e9e8;width:1366px;height:655px;}
+.head{width:100%;height:54px;background:#222;line-height:54px;}
+.head h2{float:left;color:#9d9d9d;font-size:18px;line-height:54px;margin-left:12px;}
+.head .user{float: right;color:#9d9d9d;}
+.head .user li a{color:#9d9d9d;margin-left:30px;margin-right:16px;}
+.head .user li{float: left;}
+.list{float: left;}
+.list li{width:224px;height:40px;border-radius:5px;background:#add2d0;margin-top:2px;font-size:18px;
+    line-height:40px;padding-left:46px;}
+.act{color:#9e4a20;}
+.list .goods{background:#add2d0 url("../images/navmag1.jpg")no-repeat 11px center;}
+.list .inventory{background:#add2d0 url("../images/navmag2.jpg")no-repeat 11px center;}
+.list .data{background:#add2d0 url("../images/navmag3.jpg")no-repeat 11px center;}
+.list .financial{background:#add2d0 url("../images/navmag4.jpg")no-repeat 11px center;}
+.content-right{float:right;background:#fff;width:1138px;height:550px;}
+.breadcrumb{width:1108px;height:36px;margin:10px auto;}
+.breadcrumb .guanli{color:#337ab7;font-size:15px;}
+.breadcrumb .spadd{color:red;font-size:15px;}
+.sousuo{width:1108px;margin:10px auto; border:1px solid #c9c6c6;border-radius: 5px; }
+.sousuo h4{height:36px;background-color: #f5f5f5;color:#333333;padding-left: 15px;
+    font-size:18px;line-height: 36px;    }
+.sousuo form{height: 52px;}
+.sousuo form label{font-size: 12px;font-weight: normal;color:#333333; }
+.socont{padding-top:15px;padding-left:15px;   }
+.socont label{ }
+.socont input{width:144px;
+    border:2px solid #c4b6f4 ;
+    height: 24px;border-radius: 5px; }
+.socont select{width:67px;text-align: center;
+    border:2px solid #c4b6f4 ;padding-left: 10px;
+    height: 24px;border-radius: 5px; }
+.tijiao{border-radius:5px;background-color: #c4b6f4;border: 0;
+    font-size:12px;padding: 8px 2px;   }
+.biaoge{width:1108px;margin:10px auto; }
+.biaoge th,.biaoge td{ height:30px; }
+.biaoge th{ font-size:12px;font-weight: bold;border-bottom: 2px solid #dddddd;
+    line-height: 30px;text-align: center  }
+.biaoge td{ border-top: 1px solid #dddddd;text-align: center;line-height: 30px;}
+.biaoge td img{vertical-align: middle}
+.upd,.delt,.xiaja{color: red;font-weight: bold;}
+.fenye{float: right;margin-top: 30px;margin-right:20px;}
