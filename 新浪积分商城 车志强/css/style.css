@@ -1,0 +1,37 @@
+.content{height:1747px;background:#fff;margin-top:30px;padding-top:26px;}
+.contentTop{width:1138px;height:51px;margin-left:30px;}
+.contentTop .goods{color:#ff4400;border-top:2px solid #ff4400;font-weight:bold;}
+.contentTop li{float:left;width:161px;height:51px;border-left:1px solid #e9e9e9;line-height:51px;
+                border-top:2px solid #e9e9e9;font-size:18px;color:#474747;text-align:center;}
+.contentTopzh{border-right:1px solid #e9e9e9;}
+.contentTop li:hover{color:#ff4400;border-top:2px solid #ff4400;font-weight:bold;}
+.button{width:1133px;height:45px;border:1px solid #e9e9e9;margin-left:30px;background:#fafafa;}
+.button span{display:inline-block;width:63px;padding:18px 0 0 15px;
+    background:url("../images/jf_button.png")no-repeat 69px 22px;}
+.button em{display:inline-block;width:63px;padding:18px 0 0 15px;
+    background:url("../images/jf2_button.png")no-repeat 69px 22px;}
+.button select{float:right;width:171px;height:28px;margin:8px 14px 0 0;
+                border:1px solid #e9e9e9;}
+/*页面主体*/
+.main{height:1515px;margin:25px 0 0 30px;padding-top:25px;}
+.main span{display:inline-block;width:210px;height:247px;overflow:hidden;}
+.main img{transition:0.5s;}
+.main img:hover{transform: scale(1.2);}
+.main li{float:left;width:206px;height:378px;margin-right:25px;}
+.main a{display:inline-block;font-size:14px;color:#474747;line-height:21px;padding-top:14px;}
+.main i{display:inline-block;font-size:14px;color:#ff4400;font-weight:bold;padding-top:11px;}
+.main a:hover{color:#ff4400;}
+.main .bor{border:1px solid #e9e9e9;}
+.footerF{width:1200px;height:80px;font-size:0;}
+.footerF ul{width:523px;height:48px;margin:4px auto;}
+.footerF li{float:left;border:1px solid #ececec;}
+.list{width:28px;height:46px;line-height:46px;font-weight:bold;
+        padding-left:18px;font-size:12px;}
+.list3{background:#ff4401;width:28px;height:46px;line-height:46px;
+    font-weight:bold;padding-left:18px;font-size:12px;color:white;}
+.list1{width:32px;height:32px;margin:8px 4px 0;}
+.list2{width:65px;height:48px;line-height:48px;padding-left: 29px;
+        font-size:18px;background:#ff4401;margin-left:22px;}
+.list2 a,.list3 a{color:#fff;}
+.footerF em,.footerF i,.footerF strong{float:left;font-size:12px;padding-top:20px;}
+
